@@ -20,5 +20,5 @@ numero_verificado= leiaint(numero)
 if (type(numero_verificado)==int):
     print(numero_verificado)
 else:
-    print("este numero  é inteiro ou sequer é um numero")
+    print("este numero não é inteiro ou sequer é um numero")
     print(numero)
