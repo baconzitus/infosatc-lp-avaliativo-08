@@ -25,13 +25,3 @@ while True:
     leiaFloat(numero_float)
 
 
-def leiaReal():
-    try:
-        numero=float(input("numero real: "))
-    except:
-        numero=0
-    return numero
-
-while True:
-    print(leiaReal())
-int(input(">"))
